@@ -1,7 +1,7 @@
 <?php
-    $dbhost = 'db-databases.chuy0fvfnt0x.us-east-2.rds.amazonaws.com';
-    $dbuser = 'root';
-    $dbpass ='mysqlroot';
+    $dbhost = 'placetolive.chuy0fvfnt0x.us-east-2.rds.amazonaws.com';
+    $dbuser = 'onesandohs';
+    $dbpass ='ptl-onesandohs-123';
     $conn = mysqli_connect($dbhost,$dbuser,$dbpass);
     if (!$conn){
         echo 'Connect unsuccessfully';
